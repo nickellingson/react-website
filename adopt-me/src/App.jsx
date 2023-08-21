@@ -2,6 +2,8 @@
 // One Way Data Flow, Parent -> Child, very explicit
 //
 //
+import React from "react"
+import ReactDOM from "react-dom"
 
 const Pet = (props) => {
   return React.createElement("div", {}, [
